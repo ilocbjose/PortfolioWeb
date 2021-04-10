@@ -36,7 +36,7 @@ The above copyright notice and this permission notice shall be included in all c
   <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg bg-dark" color-on-scroll="100" id="sectionsNav">
     <div class="container">
       <div class="navbar-translate">
-        <a class="navbar-brand" href="https://demos.creative-tim.com/material-kit/index.html">
+        <a class="navbar-brand" href="/PortfolioWeb/joseba_portfolio/public/">
           Joseba Urizarbarrena - Sodtware Developer </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="sr-only">Toggle navigation</span>
@@ -49,14 +49,14 @@ The above copyright notice and this permission notice shall be included in all c
         <ul class="navbar-nav ml-auto">
           <li class="dropdown nav-item">
             <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-              <i class="material-icons">apps</i> Components
+              <i class="material-icons">list</i> Options
             </a>
             <div class="dropdown-menu dropdown-with-icons">
               <a href="./index.html" class="dropdown-item">
-                <i class="material-icons">layers</i> All Components
+                <i class="material-icons">contact_page</i> Contact
               </a>
               <a href="https://demos.creative-tim.com/material-kit/docs/2.0/getting-started/introduction.html" class="dropdown-item">
-                <i class="material-icons">content_paste</i> Documentation
+                <i class="material-icons">code</i> Projects
               </a>
             </div>
           </li>
@@ -143,23 +143,18 @@ The above copyright notice and this permission notice shall be included in all c
       <nav class="float-left">
         <ul>
           <li>
-            <a href="https://www.creative-tim.com/">
-              Creative Tim
+            <a href="https://demos.creative-tim.com/">
+              Material Kit
             </a>
           </li>
           <li>
             <a href="https://www.creative-tim.com/presentation">
-              About Us
+              Contact
             </a>
           </li>
           <li>
             <a href="https://www.creative-tim.com/blog">
-              Blog
-            </a>
-          </li>
-          <li>
-            <a href="https://www.creative-tim.com/license">
-              Licenses
+              Projects
             </a>
           </li>
         </ul>
