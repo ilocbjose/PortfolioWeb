@@ -24,6 +24,11 @@
   font-size: .875rem;
 }
 
+.headerwhite{
+  color: white;
+  font-weight: bold;
+}
+
 *,
 *::before,
 *::after {
@@ -63,7 +68,6 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
   text-align: left;
   background-color: #fafafa;
 }
@@ -86,6 +90,10 @@ h5,
 h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+}
+
+.headerblack{
+  color: black;
 }
 
 p {
@@ -2640,6 +2648,10 @@ select.form-control-lg:not([size]):not([multiple]),
   box-shadow: 0 0 0 0.2rem rgba(76, 175, 80, 0.25);
 }
 
+.colorbk{
+  background: black;
+}
+
 .invalid-feedback {
   display: none;
   width: 100%;
@@ -2868,9 +2880,8 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #9c27b0;
-  border-color: #9c27b0;
+  color: black;
+  background-color: black;
   box-shadow: none;
 }
 
@@ -16903,11 +16914,11 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
   background: none;
 }
 
-.purple-filter:after {
-  background: rgba(101, 47, 142, 0.64);
-  background: linear-gradient(45deg, rgba(101, 47, 142, 0.88) 0%, rgba(125, 46, 185, 0.45) 100%);
-  background: -moz-linear-gradient(135deg, rgba(101, 47, 142, 0.88) 0%, rgba(125, 46, 185, 0.45) 100%);
-  background: -webkit-linear-gradient(135deg, rgba(101, 47, 142, 0.88) 0%, rgba(125, 46, 185, 0.45) 100%);
+.gray-filter:after {
+  background: rgba(65, 49, 98, 0.64);
+  background: linear-gradient(45deg, rgba(210, 208, 208, 1) 0%, rgba(186, 186, 186, 1) 100%);
+  background: -moz-linear-gradient(135deg, rgba(210, 208, 208, 1) 0%, rgba(186, 186, 186, 1) 100%);
+  background: -webkit-linear-gradient(135deg, rgba(210, 208, 208, 1) 0%, rgba(186, 186, 186, 1) 100%);
 }
 
 footer {
